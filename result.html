@@ -4,7 +4,7 @@
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Result - Cui-cui</title>
-        <link rel="stylesheet" media="screen and (min-device-width: 11px)" href="styles/style_home.css">
+        <link rel="stylesheet" media="screen and (min-device-width: 11px)" href="styles/style_result.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
@@ -12,35 +12,50 @@
 	<body>
 		<nav>
             <div class="group_nav">
-                <img src="resources/nav_icon/home_select.svg" alt="home">
+                <img src="resources/nav_icon/home.svg" alt="home">
                 <div class="btn_micro">
                     <img src="resources/nav_icon/microphone.svg" alt="microphone">
                 </div>
                 <img src="resources/nav_icon/search.svg" alt="search">
             </div>
         </nav>
-        <div class="up_bar">
-            <img src="resources/nav_icon/return.svg" alt="return">
-            <p class="title_page">Vos Résultats</p>
-            <img src="resources/nav_icon/nav_side.svg" alt="nav_side">
+        <div class="up_bar_patch">
+            <div class="up_bar">
+                <a href="home.html"><img src="resources/nav_icon/return.svg" alt="return"></a>
+                <p class="title_page">Vos Résultats</p>
+                <img src="resources/nav_icon/nav_side.svg" alt="nav_side">
+            </div>
         </div>
         <div class="group_fonction">
-            <div class="block_button_record">
-                <div class="button_record">
-                    <img src="resources/logo.svg" alt="logo_button">
+            <a href="bird.php?name=Rossignol">
+                <div class="thumbnail">
+                    <img src="resources/img_test/rossignol.png" alt="rossignol" class="img_thumbnail">
+                    <p class="name_bird">Rossignol</p>
+                    <p class="probability">100% de probabilité</p>
                 </div>
-            </div>
-            <p class="aide">Appuyez ici pour démarrer l’enregistrement</p>
-            <div class="block_or">
-                <div class="sep_or"></div>
-                <p class="or">OU</p>
-                <div class="sep_or"></div>
-            </div>
-            <p class="aide">Uploader votre fichier son directement</p>
-            <div class="btn_upload">
-                <img src="resources/upload.svg" alt="upload">
-                <p class="txt_upload">Ouvrir un fichier</p>
-            </div>
+            </a>
+            <a href="bird.html?name=">   
+                <div class="thumbnail">
+                    <img src="resources/img_test/merlebleu.png" alt="merlebleu" class="img_thumbnail">
+                    <p class="name_bird">Merlebleu</p>
+                    <p class="probability">42% de probabilité</p>
+                </div>
+            </a>
+            <a href="bird.html?name=">   
+                <div class="thumbnail">
+                    <img src="resources/img_test/pigeon.png" alt="pigeon" class="img_thumbnail">
+                    <p class="name_bird">Pigeon</p>
+                    <p class="probability">18% de probabilité</p>
+                </div>
+            </a>
+            <a href="bird.html?name=">    
+                <div class="thumbnail">
+                    <img src="resources/img_test/aigle.png" alt="aigle" class="img_thumbnail">
+                    <p class="name_bird">Aigle</p>
+                    <p class="probability">3% de probabilité</p>
+                </div>
+            </a>   
         </div>
+        <div class="margin_nav_bar"></div>
     </body>
 </html>
