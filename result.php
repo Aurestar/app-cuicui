@@ -1,7 +1,7 @@
 <?php
     session_start();
     $desc_bird = "Le Merlebleu de l'Est (Sialia sialis) est une espèce de passereaux appartenant à la famille des Turdidae, mesurant de 16,5 à 19 cm. Il vit en Amérique du Nord et en Amérique centrale. Son nom anglais est Eastern Bluebird.";
-    $_SESSION['name_1'] = $_POST['name_1'];
+    $_SESSION['name_1'] = 'Rossignol';
     $_SESSION['desc_1'] = $_POST['desc_1'];
 
     $_SESSION['name_2'] = $_POST['name_2'];

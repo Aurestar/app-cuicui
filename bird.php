@@ -35,19 +35,25 @@
                 <div class="btn_command">
                     <img src="resources/bird_page/play.svg" alt="play">
                 </div>
+                <a href="#overview">
                 <div class="btn_command_2">
                     <img src="resources/bird_page/info.svg" alt="info">
                 </div>
+                </a>
+                <a href="#title_images">
                 <div class="btn_command">
                     <img src="resources/bird_page/images.svg" alt="images">
                 </div>
+                </a>
             </div>
             <img src="https://m.nd.edu/graduate_student/resolve-kurogo/_loader/images/dd457a4c4aa778fa43830f1ce53bf133.jpg" alt="<?=$_GET['name']?>" class="img_bird">
         </div>
         <div class="block_infos">
             <p class="name_bird"><?=$_GET['name']?></p>
-            <p class="overview">Aperçu</p>
+            <p id="overview">Aperçu</p>
             <p class="desc_bird"><?=$desc_bird?></p>
+            <p id="title_images">Images</p>
         </div>
+        <div class="margin_nav_bar"></div>
     </body>
 </html>

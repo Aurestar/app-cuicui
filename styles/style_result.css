@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url(../resources/background.svg);
     background-repeat: none;
