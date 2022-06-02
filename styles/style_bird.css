@@ -81,7 +81,7 @@ nav {
 .block_command {
     width: 100vw;
     height: 300px;
-    margin-top: 60px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,8 +94,36 @@ nav {
     justify-content: space-between;
     width: 98px;
     height: 260px;
+    margin-left: calc(100vw - 367px);
+}
+
+.btn_command {
+    width: 58px;
+    height: 58px;
+    background: rgba(168, 198, 130, 0.57);
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.btn_command_2 {
+    width: 58px;
+    height: 58px;
+    background: rgba(168, 198, 130, 0.57);
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img_bird {
-    
+    width: 252px;
+    height: 300px;
+    object-fit: cover;
+    border-top: 1px solid #E0E2E2;
+    border-bottom: 1px solid #E0E2E2;
+    border-left: 1px solid #E0E2E2;
+    border-radius: 500px 0px 0px 500px;
 }
